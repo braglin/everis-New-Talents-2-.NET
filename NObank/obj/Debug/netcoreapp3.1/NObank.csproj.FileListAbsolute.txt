@@ -1,0 +1,13 @@
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/bin/Debug/netcoreapp3.1/NObank
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/bin/Debug/netcoreapp3.1/NObank.deps.json
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/bin/Debug/netcoreapp3.1/NObank.runtimeconfig.json
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/bin/Debug/netcoreapp3.1/NObank.runtimeconfig.dev.json
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/bin/Debug/netcoreapp3.1/NObank.dll
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/bin/Debug/netcoreapp3.1/NObank.pdb
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.csprojAssemblyReference.cache
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.AssemblyInfoInputs.cache
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.AssemblyInfo.cs
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.csproj.CoreCompileInputs.cache
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.dll
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.pdb
+/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/Debug/netcoreapp3.1/NObank.genruntimeconfig.cache

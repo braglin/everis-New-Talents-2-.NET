@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/NObank.csproj": {}
+  },
+  "projects": {
+    "/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/NObank.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/NObank.csproj",
+        "projectName": "NObank",
+        "projectPath": "/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/NObank.csproj",
+        "packagesPath": "/home/fabio/.nuget/packages/",
+        "outputPath": "/home/fabio/dev/learning/bootcamp/everis_new_talents_2_net/repo/everis-New-Talents-2-.NET/NObank/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fabio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
