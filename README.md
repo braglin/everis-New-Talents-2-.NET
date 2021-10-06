@@ -6,3 +6,5 @@
 
 
 NObank - Projeto de implementação de POO com simulação de um sistema bancário simples.
+
+CursoMVC - Implementação de MVC, API e Testes com o NetCore.
