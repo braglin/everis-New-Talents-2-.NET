@@ -8,3 +8,5 @@
 NObank - Projeto de implementação de POO com simulação de um sistema bancário simples.
 
 CursoMVC - Implementação de MVC, API e Testes com o NetCore.
+
+EstrelaDaMorte - Simulação de um sistema de controle de acesso da Estrela da Morte do Start Wars feito em MVC.

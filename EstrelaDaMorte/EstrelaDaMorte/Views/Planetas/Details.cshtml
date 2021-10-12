@@ -1,0 +1,54 @@
+﻿@model EstrelaDaMorte.Models.Planeta
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Planeta</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rotacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rotacao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Orbita)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Orbita)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Diametro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Diametro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Clima)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Clima)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Populacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Populacao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdPlaneta">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

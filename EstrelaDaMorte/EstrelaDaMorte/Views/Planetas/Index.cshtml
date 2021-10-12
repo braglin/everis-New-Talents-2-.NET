@@ -1,0 +1,65 @@
+﻿@model IEnumerable<EstrelaDaMorte.Models.Planeta>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Planetas</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rotacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Orbita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diametro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clima)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Populacao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rotacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Orbita)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diametro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clima)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Populacao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdPlaneta">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdPlaneta">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdPlaneta">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

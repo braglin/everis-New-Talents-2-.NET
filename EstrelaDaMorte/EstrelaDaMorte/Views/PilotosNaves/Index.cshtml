@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EstrelaDaMorte.Models.PilotoNave>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPiloto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdNave)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlagAutorizado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPiloto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdNave)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlagAutorizado)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { nave = item.IdNave, piloto = item.IdPiloto })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
